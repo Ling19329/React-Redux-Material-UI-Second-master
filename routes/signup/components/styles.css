@@ -1,0 +1,77 @@
+.Signup {
+  padding: 10%; }
+  @media (max-width: 600px) {
+    .Signup {
+      padding: 10% 5px; } }
+  .Signup__panel {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #F6F6F6 !important; }
+    @media (max-width: 600px) {
+      .Signup__panel {
+        width: 90%; } }
+    .Signup__panel--right {
+      background-color: #F6F6F6; }
+      .Signup__panel--right__content {
+        width: 80%;
+        margin: 10% auto; }
+        .Signup__panel--right__content__header .title {
+          color: #373737;
+          font-size: 2.8rem; }
+        .Signup__panel--right__content__header .description {
+          color: #646464;
+          font-size: 1.6rem;
+          line-height: 2.2rem; }
+        .Signup__panel--right__content__external .btn-signup--linkedin .icon--linkedin {
+          margin-right: 1.0rem; }
+        .Signup__panel--right__content__external .btn-signup--linkedin:hover .icon--linkedin path {
+          fill: #F50057; }
+        .Signup__panel--right__content__separator {
+          border-bottom: 0.1rem solid #373737;
+          text-align: center;
+          margin-top: 1.0rem;
+          margin-bottom: 2.5rem; }
+          .Signup__panel--right__content__separator .separator--text {
+            display: inline-block;
+            background-color: #F6F6F6;
+            width: 2.8rem;
+            height: 2.2rem;
+            border-radius: 50%;
+            position: relative;
+            top: 1.1rem;
+            cursor: default;
+            font-size: 1.6rem; }
+        .Signup__panel--right__content__form {
+          text-align: center; }
+          .Signup__panel--right__content__form .form__field {
+            margin-bottom: 2.0rem; }
+            .Signup__panel--right__content__form .form__field__label {
+              color: #373737;
+              font-family: 'RobotoBold'; }
+            .Signup__panel--right__content__form .form__field__input {
+              font-size: 1.4rem;
+              min-height: 1.9rem; }
+          .Signup__panel--right__content__form .state-message {
+            font-family: 'RobotoMedium';
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            display: block; }
+            .Signup__panel--right__content__form .state-message--success {
+              color: #2ECC71; }
+            .Signup__panel--right__content__form .state-message--error {
+              color: #FF2400; }
+          .Signup__panel--right__content__form .btn-signup > span {
+            text-transform: uppercase; }
+          .Signup__panel--right__content__form .btn-login > span {
+            text-transform: uppercase; }
+          .Signup__panel--right__content__form .btn-remember-password {
+            font-family: 'RobotoMedium';
+            font-size: 1.2rem;
+            color: #F50057;
+            margin-top: 1.0rem;
+            display: inline-block;
+            cursor: pointer; }
+        @media (max-width: 960px) {
+          .Signup__panel--right__content {
+            width: 90%;
+            margin: 10% auto 0; } }

@@ -1,0 +1,8 @@
+.FilterList {
+  text-align: left;
+  height: 100%; }
+  .FilterList__Icon {
+    margin: 2px 5px; }
+    .FilterList__Icon__RemoveAll {
+      position: absolute;
+      right: 13px; }

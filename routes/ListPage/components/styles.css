@@ -1,0 +1,7 @@
+.ListPage {
+  text-align: center;
+  height: calc(100vh - 140px);
+  margin: 8px 40px; }
+  .ListPage__logo {
+    width: 40rem;
+    margin: 10% auto 0; }

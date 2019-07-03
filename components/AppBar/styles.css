@@ -1,0 +1,9 @@
+.AppBar {
+  flex-grow: 1;
+  background: #FFFFFF;
+  position: relative;
+  z-index: 2; }
+  .AppBar__nav--logo {
+    margin-right: 10px; }
+  .AppBar button {
+    text-transform: none; }

@@ -1,0 +1,16 @@
+@import 'src/styles/colors';
+
+.AppBar {
+  flex-grow: 1;
+  background: $white;
+  position: relative;
+  z-index: 2;
+
+  &__nav--logo{
+    margin-right: 10px;
+  }
+
+  button {
+    text-transform: none;
+  }
+}

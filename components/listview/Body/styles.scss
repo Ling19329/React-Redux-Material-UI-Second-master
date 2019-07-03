@@ -1,0 +1,41 @@
+@import 'src/styles/colors';
+
+.ListView__Body__Cell{
+  padding: 0px 2px !important;
+  border-right: 1px solid $gray;
+
+  &:last-child{
+    border-right: 0px;
+  }
+  
+  &__CheckBox{
+    padding: 0px 4px !important;
+  }
+
+  &__Button{
+    position: relative;
+    z-index: 9999;
+  }
+
+  &__LinkButton{
+    text-transform: capitalize !important;
+  }
+}
+
+.ListView__Body__icon__success {
+  color: $darkGreen;
+}
+
+.ListView__Body__icon__faild {
+  color: $darkRed;
+}
+
+.ListView__Body__Empty_Cell {
+  vertical-align: top !important;
+  text-align: center !important;
+  font-size: 20px !important;
+}
+
+.First_Column {
+  width: 30px;
+}

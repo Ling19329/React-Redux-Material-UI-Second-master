@@ -1,0 +1,128 @@
+@import 'src/styles/colors';
+@import 'src/styles/breakpoints';
+
+.Signup {
+  padding: 10%;
+  @media(max-width: $breakpoint-sm){
+    padding: 10% 5px;
+  }
+  &__panel {
+    width: 500px;
+    margin: 0 auto;
+    background-color: $bgLightGray !important;
+    @media(max-width: $breakpoint-sm){
+      width: 90%;
+    }
+    &--right {
+      background-color: $bgLightGray;
+
+      &__content {
+        width: 80%;
+        margin: 10% auto;
+
+        &__header {
+          .title {
+            color: $black;
+            font-size: 2.8rem;
+          }
+
+          .description {
+            color: $darkGray;
+            font-size: 1.6rem;
+            line-height: 2.2rem;
+          }
+        }
+
+        &__external {
+          .btn-signup--linkedin {
+            .icon--linkedin {
+              margin-right: 1.0rem;
+            }
+
+            &:hover .icon--linkedin path {
+              fill: $secondary;
+            }
+          }
+        }
+
+        &__separator {
+          border-bottom: .1rem solid $black;
+          text-align: center;
+          margin-top: 1.0rem;
+          margin-bottom: 2.5rem;
+
+          .separator--text {
+            display: inline-block;
+            background-color: $bgLightGray;
+            width: 2.8rem;
+            height: 2.2rem;
+            border-radius: 50%;
+            position: relative;
+            top: 1.1rem;
+            cursor: default;
+            font-size: 1.6rem;
+          }
+        }
+
+        &__form {
+          text-align: center;
+
+          .form__field {
+            margin-bottom: 2.0rem;
+
+            &__label {
+              color: $black;
+              font-family: 'RobotoBold';
+            }
+
+            &__input {
+              font-size: 1.4rem;
+              min-height: 1.9rem;
+            }
+          }
+
+          .state-message {
+            font-family: 'RobotoMedium';
+            font-size: 1.4rem;
+            margin-bottom: 1.5rem;
+            display: block;
+
+            &--success {
+              color: $green;
+            }
+
+            &--error {
+              color: $red;
+            }
+          }
+
+          .btn-signup {
+            & > span {
+              text-transform: uppercase;
+            }
+          }
+
+          .btn-login {
+            & > span {
+              text-transform: uppercase;
+            }
+          }
+
+          .btn-remember-password {
+            font-family: 'RobotoMedium';
+            font-size: 1.2rem;
+            color: $secondary;
+            margin-top: 1.0rem;
+            display: inline-block;
+            cursor: pointer;
+          }
+        }
+
+        @media(max-width: $breakpoint-md){
+          width: 90%;
+          margin: 10% auto 0;
+        }
+      }
+    }
+  }
+}

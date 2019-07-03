@@ -1,0 +1,8 @@
+.ColumnList {
+  text-align: left;
+  height: 100%; }
+  .ColumnList__Icon {
+    margin: 2px 5px; }
+    .ColumnList__Icon__Add {
+      position: absolute;
+      right: 13px; }

@@ -1,0 +1,17 @@
+.language-selector {
+  position: absolute;
+  top: 0; }
+  .language-selector__label {
+    margin-left: 5px; }
+  .language-selector__img {
+    cursor: pointer; }
+  .language-selector__icon {
+    color: #2ECC71; }
+  .language-selector.right {
+    right: 0; }
+    .language-selector.right > * {
+      margin: 0 2.0rem 0 0; }
+  .language-selector.left {
+    left: 0; }
+    .language-selector.left > * {
+      margin: 1.5rem 0 0 2.0rem; }

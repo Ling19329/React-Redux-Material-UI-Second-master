@@ -1,0 +1,4 @@
+.DetailView {
+  text-align: center;
+  height: calc(100vh - 140px);
+  margin: 8px 40px; }

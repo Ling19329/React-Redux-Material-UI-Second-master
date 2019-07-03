@@ -1,0 +1,39 @@
+.recover-password-main-dialog .btn-close {
+  cursor: pointer;
+  float: right;
+  padding-top: .5rem; }
+
+.recover-password-main-dialog .main-content-wrapper {
+  padding: 0 2.4rem;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  color: #373737;
+  font-weight: 100; }
+  .recover-password-main-dialog .main-content-wrapper .email-input-wrapper {
+    overflow: hidden; }
+    .recover-password-main-dialog .main-content-wrapper .email-input-wrapper label {
+      font-family: 'RobotoBold';
+      color: #373737; }
+  .recover-password-main-dialog .main-content-wrapper .recover-email-msg-wrapper {
+    line-height: 2.2rem; }
+    .recover-password-main-dialog .main-content-wrapper .recover-email-msg-wrapper .recover-email-msg-txt {
+      font-style: italic;
+      font-weight: 400; }
+
+.recover-password-main-dialog .recover-email-help-txt {
+  padding-top: 2.5rem;
+  color: #373737;
+  text-align: center;
+  font-size: 1.4rem; }
+
+.recover-password-main-dialog .recover-email-help-number {
+  text-align: center;
+  font-size: 1.6rem;
+  padding-top: .6rem; }
+  .recover-password-main-dialog .recover-email-help-number a,
+  .recover-password-main-dialog .recover-email-help-number a:visited {
+    color: #2196F3; }
+
+.recover-password-main-dialog .btn-action {
+  text-transform: uppercase;
+  margin: 1.0rem 0 0; }
